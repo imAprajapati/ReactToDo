@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import {Button,Alert} from '@mui/material'
+import {Button} from '@mui/material'
 import AddIcon from '@mui/icons-material/Add';
 import React,{useState} from 'react';
 import TodoList from './components/TodoList'; 
@@ -16,7 +15,6 @@ function App() {
     setInputList("");
   }else{
     alert("Please Enter the Value");
-    // <Alert severity="error">This is an error alert — check it out!</Alert>
   }
   };
   const deleteItem = (id) => {
